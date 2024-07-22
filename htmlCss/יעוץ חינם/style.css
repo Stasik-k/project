@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+}
+
+#containerForm {
+    width: 55vw;
+    direction: rtl;
+    margin-top: 8em;
+}
+
+#containerImg {
+    width: 45vw;
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 80vh;
+}
+
+#formTitle>h1 {
+    font: normal normal 900 66px/97px Heebo;
+}
+
+#formTitle>p {
+    font: normal normal normal 20px/29px Heebo;
+    width: 400px;
+    height: 60px;
+}
+
+#formTitle {
+    width: 80%;
+    margin: auto;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+}
+
+.formControl>input {
+    height: 50px;
+    background-color: #E5EEFF;
+    border: 0;
+    border-bottom: 5px solid #FDBD03;
+    width: 50%;
+}
+
+input[type="submit"] {
+    background-color: #FDBD03;
+    color: black;
+    font: normal normal bold 22px/30px Heebo;
+    width: 30%;
+}
+
+.comment {
+    height: 150px;
+}
+
+label {
+    font: normal normal bold 16px/24px Heebo;
+}
+
+#coment {
+    height: 143px;
+}
+
+
+@media(max-width: 800px) {
+
+    #container {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    img {
+        height: 120px;
+        width: 80px;
+    }
+
+    #formTitle>h1 {
+        font: normal normal 900 40px/59px Heebo;
+    }
+
+    #formTitle>p {
+        font: normal normal normal 15px/22px Heebo;
+    }
+
+    label {
+        font: normal normal bold 10px/14px Heebo;
+    }
+
+    input {
+        height: 37px;
+    }
+
+    inpit[type="submit"] {
+        font: normal normal bold 15px/21px Heebo;
+    }
+
+
+}

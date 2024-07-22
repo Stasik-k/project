@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 640px;
+    background-color: rgb(132, 20, 196);
+    border: 10px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+
+.redPiece {
+    background-color: red;
+}
+
+.bluePiece {
+    background-color: blue;
+}
+
+#resetBtn {
+    cursor: pointer;
+    margin: 20px;
+    font-size: 40px;
+}

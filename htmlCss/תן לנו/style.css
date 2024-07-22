@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#containerText {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(Path\ 15.png);
+}
+
+#form {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#containerText>h1 {
+    font: normal normal bold 86px/113px Assistant;
+    color: #D3E10E;
+}
+
+#containerText>p {
+    font: normal normal normal 20px/26px Assistant;
+    color: #F9F9F9;
+}
+
+#form {
+    display: flex;
+    flex-direction: rtl;
+    flex-direction: row;
+}
+
+.formControl>input {
+    height: 50px;
+    background: #F6F6F6;
+    border: 0;
+    border-bottom: 5px solid #D3E10E;
+}
+
+input[type="submit"] {
+    background-color: #D3E10E;
+    color: #011560;
+    font: normal normal bold 22px/30px Assistant;
+
+}
+
+label {
+    font: normal normal bold 16px/21px Assistant;
+}
+
+@media (max-width 800px) {
+    img {
+        height: 100%;
+    }
+}

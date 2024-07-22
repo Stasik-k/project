@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    gap: 1em;
+
+}
+.head{
+    font: normal normal normal 160px/231px Satisfy;
+}
+h1{
+    font: normal normal normal 32px/38px Varela Round;
+}
+p{
+    font: normal normal normal 16px/20px Varela Round;
+    
+}
+#form{
+    display: flex;
+    flex-direction: row;
+}
+.form-control{
+    font: normal normal normal 16px/20px Varela Round;
+}
